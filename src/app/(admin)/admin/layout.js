@@ -20,7 +20,7 @@ export default function Layout({ children }) {
               <TabsTrigger value="subcategories">SubCategories</TabsTrigger>
             </Link>
             <Link href={"/admin/events"}>
-              <TabsTrigger value="categories">events</TabsTrigger>
+              <TabsTrigger value="events">events</TabsTrigger>
             </Link>
           </TabsList>
           <TabsContent value="dashboard">{children}</TabsContent>
