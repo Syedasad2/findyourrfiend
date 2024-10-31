@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 import {
     Table,
     TableBody,
@@ -7,8 +9,9 @@ import {
     TableHeader,
     TableRow,
   } from "@/components/ui/table";
-  import { Button } from "@/components/ui/button"
+  import { Button} from "@/components/ui/button"
   import Image from "next/image";
+// import Addcategory from "@/components/AddCategory/addcategory";
   
   const categories = [
     {
@@ -41,7 +44,6 @@ import {
       <div className="min-h-screen px-20 pt-10">
         <div className="flex justify-between">
             <h1 className="font-bold">All Categories</h1>
-            <Button variant="outline">Add Categories</Button> 
         </div>
         <Table>
           <TableCaption>A list of Categories</TableCaption>
